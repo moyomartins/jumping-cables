@@ -173,9 +173,9 @@ body {
   -webkit-locale: auto;
   font-family: "HelveticaNeueCyr", sans-serif;
   color: #E2DCC8;
-  background: #1C1C1C;
-  background: -webkit-gradient(linear, left top, right top, from(#241f1f), color-stop(32%, #241f1f), to(#4a4746));
-  background: linear-gradient(to right, #241f1f 0%, #241f1f 32%, #4a4746 100%); }
+  background: #000000;
+  /* background: -webkit-gradient(linear, left top, right top, from(#241f1f), color-stop(32%, #241f1f), to(#4a4746)); */
+  /* background: linear-gradient(to right, #241f1f 0%, #241f1f 32%, #4a4746 100%); } */
 
 input, button {
   -webkit-appearance: none; }
@@ -184,7 +184,7 @@ a {
   text-decoration: none;
   color: #E2DCC8; }
   a:hover {
-    color: #B66449; }
+    color: #bdf100; }
 
 ol,
 ul,
@@ -207,7 +207,7 @@ body::-webkit-scrollbar {
   background: #E2DCC8; }
 
 body::-webkit-scrollbar-thumb {
-  background: #B66449; }
+  background: #bdf100; }
 
 .main {
   width: 100%;
@@ -239,7 +239,7 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
   display: inline-block;
   border-radius: 70px;
-  background: #B66449;
+  background: #bdf100;
   -webkit-transition: background 0.3s;
   transition: background 0.3s;
   font-size: 0.9375vw;
@@ -254,7 +254,7 @@ body::-webkit-scrollbar-thumb {
       padding: 3.73333vw 16vw; } }
   .btn:hover {
     background: #E2DCC8;
-    color: #B66449; }
+    color: #bdf100; }
   .btn svg {
     max-width: 1.875vw;
     max-height: 0.83333vw;
@@ -291,7 +291,9 @@ body::-webkit-scrollbar-thumb {
   @media screen and (max-width: 768px) and (orientation: portrait) {
     .small {
       font-size: 4vw; } }
-
+.small span {
+  color: #bdf100;
+}
 .input-file input {
   display: none; }
 
@@ -318,8 +320,8 @@ body::-webkit-scrollbar-thumb {
   @media screen and (max-width: 768px) and (orientation: portrait) {
     .header {
       height: 18.66667vw;
-      background: #1C1C1C;
-      background: #241f1f;
+      /* background: #1C1C1C;
+      background: #241f1f; */
       z-index: 100; } }
   .header__left {
     width: 36.927vw;
@@ -437,7 +439,7 @@ body::-webkit-scrollbar-thumb {
         line-height: 140%;
         display: block; }
       .header__menu li.active a {
-        color: #B66449; }
+        color: #bdf100; }
     .header__menu.blocked li a {
       cursor: default;
       pointer-events: none; }
@@ -548,7 +550,7 @@ body::-webkit-scrollbar-thumb {
           padding: 0 5.33333vw; } }
 
 .page-title {
-  background: #1C1C1C;
+  background: #000000;
   background: #241f1f; }
   @media screen and (max-width: 768px) and (orientation: portrait) {
     .page-title {
@@ -829,7 +831,7 @@ body::-webkit-scrollbar-thumb {
           font-size: 8.53333vw;
           max-width: 100%; } }
       .home-page .content__subtitle span {
-        color: #B66449; }
+        color: #bdf100; }
     .home-page .content__awards {
       margin-left: -1.14583vw;
       margin-right: -1.14583vw;
