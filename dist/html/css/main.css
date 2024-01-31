@@ -320,8 +320,8 @@ body::-webkit-scrollbar-thumb {
   @media screen and (max-width: 768px) and (orientation: portrait) {
     .header {
       height: 18.66667vw;
-      /* background: #1C1C1C;
-      background: #241f1f; */
+      background: #1C1C1C; 
+      background: #241f1f; 
       z-index: 100; } }
   .header__left {
     width: 36.927vw;
@@ -1387,6 +1387,8 @@ body::-webkit-scrollbar-thumb {
   @media screen and (max-width: 768px) and (orientation: portrait) {
     .contacts__copyright {
       margin-top: 8vw; } }
+
+
 
 .contacts__form {
   margin-top: 7.61905vh; }
